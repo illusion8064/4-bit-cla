@@ -47,7 +47,4 @@ Feel free to contribute by:
 - Enhancing the implementation or documentation.
 - Adding support for additional tools or platforms.
 
-## **License**
-This project is licensed under the [MIT License](LICENSE).
-
 ---
