@@ -1,0 +1,149 @@
+magic
+tech scmos
+timestamp 1731866902
+<< nwell >>
+rect -6 6 129 30
+rect -6 -6 34 6
+<< ntransistor >>
+rect 7 -44 9 -38
+rect 45 -44 47 -32
+rect 57 -44 59 -32
+rect 82 -44 84 -32
+rect 94 -44 96 -32
+rect 116 -44 118 -38
+<< ptransistor >>
+rect 7 0 9 24
+rect 19 0 21 24
+rect 45 12 47 24
+rect 82 12 84 24
+rect 116 12 118 24
+<< ndiffusion >>
+rect 4 -44 7 -38
+rect 9 -44 24 -38
+rect 42 -44 45 -32
+rect 47 -44 57 -32
+rect 59 -44 62 -32
+rect 79 -44 82 -32
+rect 84 -44 94 -32
+rect 96 -44 99 -32
+rect 115 -44 116 -38
+rect 118 -44 119 -38
+<< pdiffusion >>
+rect 4 0 7 24
+rect 9 0 19 24
+rect 21 0 24 24
+rect 42 12 45 24
+rect 47 12 62 24
+rect 79 12 82 24
+rect 84 12 99 24
+rect 115 12 116 24
+rect 118 12 119 24
+<< ndcontact >>
+rect 0 -44 4 -38
+rect 24 -44 28 -38
+rect 38 -44 42 -32
+rect 62 -44 66 -32
+rect 75 -44 79 -32
+rect 99 -44 103 -32
+rect 111 -44 115 -38
+rect 119 -44 123 -38
+<< pdcontact >>
+rect 0 0 4 24
+rect 24 0 28 24
+rect 38 12 42 24
+rect 62 12 66 24
+rect 75 12 79 24
+rect 99 12 103 24
+rect 111 12 115 24
+rect 119 12 123 24
+<< polysilicon >>
+rect 7 24 9 27
+rect 19 24 21 27
+rect 45 24 47 27
+rect 82 24 84 27
+rect 116 24 118 27
+rect 7 -38 9 0
+rect 19 -18 21 0
+rect 45 -32 47 0
+rect 57 -32 59 -22
+rect 82 -32 84 0
+rect 94 -32 96 -14
+rect 116 -38 118 12
+rect 7 -47 9 -44
+rect 45 -47 47 -44
+rect 57 -47 59 -44
+rect 82 -47 84 -44
+rect 94 -47 96 -44
+rect 116 -47 118 -44
+<< polycontact >>
+rect 3 -11 7 -7
+rect 15 -18 19 -14
+rect 41 -11 45 -7
+rect 78 -11 82 -7
+rect 53 -26 57 -22
+rect 112 -11 116 -7
+rect 90 -18 94 -14
+<< polypplus >>
+rect 45 0 47 12
+rect 82 0 84 12
+<< metal1 >>
+rect 0 28 118 33
+rect 0 24 4 28
+rect 38 24 42 28
+rect 75 24 79 28
+rect 111 24 115 28
+rect -1 -11 3 -7
+rect 24 -22 28 0
+rect 62 -7 66 12
+rect 99 -7 103 12
+rect 119 -7 123 12
+rect 62 -11 78 -7
+rect 99 -11 112 -7
+rect 119 -11 127 -7
+rect 24 -26 53 -22
+rect 24 -38 28 -26
+rect 62 -32 66 -11
+rect 99 -32 103 -11
+rect 119 -38 123 -11
+rect 0 -48 4 -44
+rect 38 -48 42 -44
+rect 75 -48 79 -44
+rect 111 -48 115 -44
+rect 0 -53 118 -48
+<< metal2 >>
+rect 11 -11 41 -7
+rect 11 -14 15 -11
+rect -1 -18 15 -14
+rect 37 -14 41 -11
+rect 37 -18 90 -14
+<< labels >>
+rlabel metal1 55 31 55 31 5 VDD
+rlabel ndcontact 2 -41 2 -41 1 gnd
+rlabel metal1 70 -50 70 -50 1 gnd
+rlabel polycontact 5 -9 5 -9 1 D
+rlabel ndcontact 26 -41 26 -41 1 out1
+rlabel pdcontact 2 12 2 12 1 vdd
+rlabel pdcontact 26 12 26 12 1 out1
+rlabel ndcontact 40 -38 40 -38 1 gnd
+rlabel ndcontact 64 -38 64 -38 1 out2
+rlabel pdcontact 40 18 40 18 1 vdd
+rlabel pdcontact 64 18 64 18 1 out2
+rlabel ndcontact 77 -38 77 -38 1 gnd
+rlabel ndcontact 101 -38 101 -38 1 qnot
+rlabel polycontact 80 -9 80 -9 1 out2
+rlabel pdcontact 77 18 77 18 1 vdd
+rlabel pdcontact 101 18 101 18 1 qnot
+rlabel polycontact 114 -9 114 -9 1 qnot
+rlabel ndcontact 113 -41 113 -41 1 gnd
+rlabel ndcontact 121 -41 121 -41 1 Q
+rlabel metal1 125 -9 125 -9 7 Q
+rlabel pdcontact 121 18 121 18 1 Q
+rlabel pdcontact 113 18 113 18 1 vdd
+rlabel pdiffusion 14 12 14 12 1 n1
+rlabel ndiffusion 51 -38 51 -38 1 n2
+rlabel ndiffusion 89 -38 89 -38 1 n3
+rlabel polycontact 17 -16 17 -16 1 CLK
+rlabel polycontact 92 -16 92 -16 1 CLK
+rlabel polycontact 43 -9 43 -9 1 CLK
+rlabel polycontact 55 -24 55 -24 1 out1
+<< end >>
