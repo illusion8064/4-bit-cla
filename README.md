@@ -22,16 +22,6 @@ This repository contains the following implementations and files related to a **
 - **Hardware Description:** Verilog HDL
 - **FPGA Tools:** Xilinx Vivado
 
-## **Structure**
-- **`/simulations/`:**
-  - Contains NGSPICE simulation scripts and results.
-- **`/layouts/`:**
-  - Layout files generated in MAGIC VLSI.
-- **`/verilog/`:**
-  - Verilog HDL code and testbenches for the 4-bit CLA.
-- **`/fpga/`:**
-  - Constraint files and additional resources for FPGA implementation.
-
 ## **Getting Started**
 1. **Clone the Repository:**
    ```bash
