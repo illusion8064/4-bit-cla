@@ -2,6 +2,8 @@
 
 This repository contains the following implementations and files related to a **4-bit Carry Lookahead Adder**:
 
+![CLA Diagram](cla_image.png)
+
 ## **Features**
 - **Pre-Layout and Post-Layout Simulations:**
   - NGSPICE simulations for functional verification.
