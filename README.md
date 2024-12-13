@@ -27,7 +27,7 @@ This repository contains the following implementations and files related to a **
 ## **Getting Started**
 1. **Clone the Repository:**
    ```bash
-   git clone git@github.com:<username>/4-bit-CLA.git
+   git clone git@github.com:illusion8064/4-bit-CLA.git
    cd 4-bit-CLA
    ```
 
