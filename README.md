@@ -1,52 +1,52 @@
-# **4-bit Carry Lookahead Adder (CLA)**
+# **4-bit carry lookahead adder (cla)**
 
-This repository contains the following implementations and files related to a **4-bit Carry Lookahead Adder**:
+this repository contains the following implementations and files related to a **4-bit carry lookahead adder**:
 
-![CLA Diagram](basic_layout.png)
+![cla diagram](basic_layout.png)
 
-## **Features**
-- **Pre-Layout and Post-Layout Simulations:**
-  - NGSPICE simulations for functional verification.
-  - Magic VLSI layouts for adder designs.
-  - Static Timing Analysis using NGSPICE.
+## **features**
+- **pre-layout and post-layout simulations:**
+  - ngspice simulations for functional verification.
+  - magic vlsi layouts for adder designs.
+  - static timing analysis using ngspice.
 
-- **Verilog Implementation:**
-  - Structural descriptions of the 4-bit CLA.
-  - Testbenches for functionality verification.
+- **verilog implementation:**
+  - structural descriptions of the 4-bit cla.
+  - testbenches for functionality verification.
 
-- **FPGA Implementation:**
-  - Constraint files (`.xdc`) for Field Programmable Gate Array (FPGA) implementation.
-  - Other necessary files for hardware realization using an FPGA.
+- **fpga implementation:**
+  - constraint files (`.xdc`) for field programmable gate array (fpga) implementation.
+  - other necessary files for hardware realization using an fpga.
 
-## **Tools Used**
-- **Simulation:** NGSPICE + Verilog HDL
-- **Layout Design:** MAGIC VLSI
-- **Hardware Description:** Verilog HDL
-- **FPGA Tools:** Xilinx Vivado
+## **tools used**
+- **simulation:** ngspice + verilog hdl
+- **layout design:** magic vlsi
+- **hardware description:** verilog hdl
+- **fpga tools:** xilinx vivado
 
-## **Getting Started**
-1. **Clone the Repository:**
+## **getting started**
+1. **clone the repository:**
    ```bash
-   git clone git@github.com:illusion8064/4-bit-CLA.git
-   cd 4-bit-CLA
+   git clone git@github.com:illusion8064/4-bit-cla.git
+   cd 4-bit-cla
    ```
 
-2. **Simulate the Design:**
-   - Use NGSPICE to run pre-layout or post-layout simulations.
-   - Open `*.sp` files to verify design performance.
+2. **simulate the design:**
+   - use ngspice to run pre-layout or post-layout simulations.
+   - open `*.sp` files to verify design performance.
 
-3. **Run Verilog Simulations:**
-   - Use tools like GTKWave or Vivado for simulation.
-   - Execute testbenches to check the Verilog implementation.
+3. **run verilog simulations:**
+   - use tools like gtkwave or vivado for simulation.
+   - execute testbenches to check the verilog implementation.
 
-4. **Implement on FPGA:**
-   - Load the `.xdc` constraint files and Verilog design into Xilinx Vivado.
-   - Generate the bitstream and program your FPGA.
+4. **implement on fpga:**
+   - load the `.xdc` constraint files and verilog design into xilinx vivado.
+   - generate the bitstream and program your fpga.
 
-## **Contributing**
-Feel free to contribute by:
-- Reporting issues.
-- Enhancing the implementation or documentation.
-- Adding support for additional tools or platforms.
+## **contributing**
+feel free to contribute by:
+- reporting issues.
+- enhancing the implementation or documentation.
+- adding support for additional tools or platforms.
 
 ---
