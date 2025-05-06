@@ -2,7 +2,7 @@
 
 this repository contains the following implementations and files related to a **4-bit carry lookahead adder**:
 
-![cla diagram](basic_layout.png)
+![cla diagram](basic-layout.png)
 
 ## **features**
 - **pre-layout and post-layout simulations:**
